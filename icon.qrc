@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/chevron-left.svg</file>
+        <file>icons/monitor.png</file>
+        <file>icons/database-monitor-sync.png</file>
+        <file>icons/design-monitor-pencil.png</file>
+        <file>icons/laptop-add.png</file>
+        <file>icons/laptop-download.png</file>
+        <file>icons/laptop-sync.png</file>
+        <file>icons/monitor-add.png</file>
+        <file>icons/monitor-bug.png</file>
+        <file>icons/monitor-shield.png</file>
+        <file>icons/navigation-menu-2.png</file>
+        <file>icons/office-employee.png</file>
+        <file>icons/single-man_1.png</file>
+        <file>icons/alert-triangle.png</file>
+        <file>icons/app-window-mail-at.png</file>
+        <file>icons/phone.png</file>
+        <file>icons/search.png</file>
+        <file>icons/navigation-menu-1.png</file>
+        <file>icons/sidebar (1).svg</file>
+        <file>icons/align-left (1).svg</file>
+        <file>icons/email-logo.png</file>
+        <file>icons/house-1.png</file>
+        <file>icons/house-user.png</file>
+        <file>icons/monitor-download.png</file>
+        <file>icons/monitor-edit.png</file>
+        <file>icons/monitor-touch.png</file>
+        <file>icons/navigation-menu-4.png</file>
+        <file>icons/shopping-laptop-notebook-sale.png</file>
+        <file>icons/eye.svg</file>
+        <file>icons/arrow-right (1).svg</file>
+        <file>icons/arrow-right (2).svg</file>
+        <file>icons/arrow-left.svg</file>
+        <file>icons/circle-shape.png</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>img/bg.png</file>
+        <file>img/monito.jpg</file>
+        <file>img/monitor.jpg</file>
+        <file>img/mo.jpg</file>
+    </qresource>
+</RCC>

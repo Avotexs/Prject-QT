@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modif_supp</class>
+ <widget class="QMainWindow" name="modif_supp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1153</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>60</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:rgb(136,153,166); 
+border: 2px; 
+border-radius: 10px; 
+padding: 0 8px; 
+	color: rgb(255, 255, 255);
+ font-size: 16px;}
+ QLineEdit::focus {  
+   background-color:rgb(24,25,26);
+border: 2px solid lightgreen;
+
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>processeur Ordinateur</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>10</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:rgb(136,153,166); 
+border: 2px; 
+border-radius: 10px; 
+padding: 0 8px; 
+	color: rgb(255, 255, 255);
+ font-size: 16px;}
+ QLineEdit::focus {  
+   background-color:rgb(24,25,26);
+border: 2px solid lightgreen;
+
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Numero de Serie :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:rgb(136,153,166); 
+border: 2px; 
+border-radius: 10px; 
+padding: 0 8px; 
+	color: rgb(255, 255, 255);
+ font-size: 16px;}
+ QLineEdit::focus {  
+   background-color:rgb(24,25,26);
+border: 2px solid lightgreen;
+
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Couleur d'ordinateur</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(136,153,166); 
+border: 2px; 
+border-radius: 10px; 
+padding: 0 8px; 
+	color: rgb(255, 255, 255);
+ font-size: 16px;
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string comment="lkj" extracomment="kl">En service </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hors service</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>En maintenance</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>En cours de mise à jour </string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>110</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(136,153,166); 
+border: 2px; 
+border-radius: 10px; 
+padding: 0 8px; 
+	color: rgb(255, 255, 255);
+ font-size: 16px;
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Département des Technologies de l'Information</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Ressources Humaines </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département de la Sécurité Informatique </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Finances</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Achats</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département de la Formation</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Services aux Utilisateurs</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_modif">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>30</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+}
+QPushButton:hover{
+background-color: #3e8e41
+}
+QPushButton:pressed{
+background-color: rgb(85, 255, 255)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Modifier un ordinateur</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:rgb(136,153,166); 
+border: 2px; 
+border-radius: 10px; 
+padding: 0 8px; 
+	color: rgb(255, 255, 255);
+ font-size: 16px;}
+ QLineEdit::focus {  
+   background-color:rgb(24,25,26);
+border: 2px solid lightgreen;
+
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>ID Ordinateur :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_supp">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>80</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+}
+QPushButton:hover{
+background-color: #3e8e41
+}
+QPushButton:pressed{
+background-color: rgb(85, 255, 255)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Supprimer un odinateur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_show">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>710</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+}
+QPushButton:hover{
+background-color: #3e8e41
+}
+QPushButton:pressed{
+background-color: rgb(85, 255, 255)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Voir La list ordinateur</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>1061</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Numero de Serie</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Couleur</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Processeur</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>etat</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Departement</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
